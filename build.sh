@@ -31,6 +31,13 @@ do
 	mv "$ttf.fix" $ttf;
 done
 
+echo "Post processing OTFs"
+otfs=$(ls fonts/static/otf/*.otf)
+for otf in $otfs
+do
+	gftools fix-dsig -f $otf
+done
+
 
 # ============================================================================
 # Build woff2 fonts ==========================================================
