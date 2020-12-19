@@ -1,7 +1,6 @@
 # Gluten
 ## 2 Axes / Variable / Super Soft / 27 Styles / Display
 
-   ![Sample of Gluten Family.](img-gluten.png "Gluten")
 
 
    Currently at the [Latin Plus](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets) character set.
