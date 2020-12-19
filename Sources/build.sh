@@ -3,23 +3,26 @@
 set -e
 
 
-cd sources
+
+echo "Generating VFs"
+mkdir -p ../fonts/variable
+fontmake -g Sources/Gluten.glyphs -o variable --output-path ../fonts/variable/Gluten[slnt,wght].ttf
+
+rm -rf master_ufo/ instance_ufo/
+
+
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/static/ttf
-fontmake -g Gluten.glyphs -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake -g Sources/Gluten.glyphs -i -o ttf --output-dir ../fonts/static/ttf/
 
 mkdir -p ../fonts/static/otf
-fontmake  -g Gluten.glyphs -i -o otf --output-dir ../fonts/static/otf/
+fontmake -g Sources/Gluten.glyphs -i -o otf --output-dir ../fonts/static/otf/
 
 
-
-
-cd ..
 
 # ============================================================================
 # Autohinting ================================================================
-
 echo "Post processing TTFs"
 ttfs=$(ls fonts/static/ttf/*.ttf)
 for ttf in $ttfs
@@ -37,8 +40,6 @@ for otf in $otfs
 do
 	gftools fix-dsig -f $otf
 done
-
-
 # ============================================================================
 # Build woff2 fonts ==========================================================
 
@@ -76,22 +77,13 @@ done
 
 
 
-cd sources
-
-echo "Generating VFs"
-mkdir -p ../fonts/variable
-fontmake  -g Gluten.glyphs -o variable --output-path ../fonts/variable/Gluten[ital,wght].ttf
-
-rm -rf master_ufo/ instance_ufo/
 
 
-cd ../fonts/variable
 
-woff2_compress Gluten[ital,wght].ttf
 
-cd ..
 
-echo "Post processing VFs"
+
+echo "Post processing VF"
 
 vfs=$(ls ../fonts/variable/*.ttf)
 for vf in $vfs
@@ -108,4 +100,4 @@ do
 done
 rm ../fonts/variable/*gasp.ttf
 
-echo "Complete"
+echo "Complete!"
