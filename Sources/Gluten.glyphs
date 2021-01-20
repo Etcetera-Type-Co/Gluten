@@ -1,9 +1,5 @@
 {
-.appVersion = "1350";
-DisplayStrings = (
-"0123456789567315031659743012947640312946732160903127964531297494531256752314069215467321504531028794635012437614340851769423751",
-"\012ALTERNATES\012/I.ss01/a.ss01/l.ss01/n.ss01/t.ss01/u.ss01/underscore.ss01"
-);
+.appVersion = "1352";
 classes = (
 {
 automatic = 1;
@@ -60,6 +56,10 @@ Tag = slnt;
 {
 name = "Variable Font Family Name";
 value = "Gluten Variable";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 date = "2020-12-19 18:31:23 +0000";
@@ -155378,5 +155378,5 @@ manufacturer = "Etcetera Type Company";
 manufacturerURL = "https://www.etceteratype.co";
 unitsPerEm = 2000;
 versionMajor = 1;
-versionMinor = 200;
+versionMinor = 201;
 }
