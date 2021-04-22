@@ -1,11 +1,21 @@
     sources:
       - Gluten.glyphs
     axisOrder:
-      - wght
       - slnt
+      - wght
     outputDir: "../fonts"
     familyName: Gluten
     stat:
+      - name: Slant
+        tag: slnt
+        values:
+        - name: Reverse
+          value: 13
+        - name: Upright
+          value: 0
+          flags: 2
+        - name: Oblique
+          value: -13
       - name: Weight
         tag: wght
         values:
@@ -29,18 +39,3 @@
           value: 800
         - name: Black
           value: 900
-      - name: Slant
-        tag: slnt
-        values:
-        - name: Upright
-          value: 0
-          linkedValue: -13
-          flags: 2
-        - name: Oblique
-          rangeMinValue: -13
-          nominalValue: -13
-          rangeMaxValue: -1
-        - name: Backslanted
-          rangeMinValue: 1
-          nominalValue: 13
-          rangeMaxValue: 13
