@@ -9,12 +9,12 @@
       - name: Slant
         tag: slnt
         values:
-        - name: Reverse
+        - name: LeftLeaning
           value: 13
         - name: Upright
           value: 0
           flags: 2
-        - name: Oblique
+        - name: RightLeaning
           value: -13
       - name: Weight
         tag: wght
@@ -29,7 +29,7 @@
           value: 400
           linkedValue: 700
           flags: 2
-        - name: Book
+        - name: Medium
           value: 500
         - name: SemiBold
           value: 600
