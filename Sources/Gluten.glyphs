@@ -609,7 +609,7 @@ alignmentZones = (
 );
 ascender = 1250;
 capHeight = 1167;
-custom = "BackSlant Thin";
+custom = "RightLeaning Thin";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -671,7 +671,7 @@ alignmentZones = (
 );
 ascender = 1250;
 capHeight = 1167;
-custom = "BackSlant Black";
+custom = "RightLeaning Black";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -734,7 +734,7 @@ alignmentZones = (
 );
 ascender = 1250;
 capHeight = 1167;
-custom = "Thin Oblique";
+custom = "LeftLeaning Thin";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -796,7 +796,7 @@ alignmentZones = (
 );
 ascender = 1250;
 capHeight = 1167;
-custom = "Black Oblique";
+custom = "LeftLeaning Black";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -154350,155 +154350,6 @@ width = 1185;
 );
 instances = (
 {
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 1;
-};
-name = "Thin Reverse";
-weightClass = Thin;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 200;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.875;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.125;
-};
-name = "ExtraLight Reverse";
-weightClass = ExtraLight;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 300;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.75;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.25;
-};
-name = "Light Reverse";
-weightClass = Light;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 400;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.625;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.375;
-};
-name = Reverse;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 500;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.5;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.5;
-};
-name = "Medium Reverse";
-weightClass = Medium;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 600;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.375;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.625;
-};
-name = "SemiBold Reverse";
-weightClass = SemiBold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 700;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.25;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.75;
-};
-name = "Bold Reverse";
-weightClass = Bold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 800;
-interpolationWidth = 13;
-instanceInterpolations = {
-"A5079BDB-9783-4F5E-864F-267B8C6F09C1" = 0.125;
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 0.875;
-};
-name = "ExtraBold Reverse";
-weightClass = ExtraBold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "13";
-}
-);
-interpolationWeight = 900;
-interpolationWidth = 13;
-instanceInterpolations = {
-"AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 1;
-};
-name = "Black Reverse";
-weightClass = Black;
-},
-{
 interpolationWidth = 0;
 instanceInterpolations = {
 "4C364951-5780-4BC6-AB35-57CC8C56127C" = 1;
@@ -154589,7 +154440,7 @@ weightClass = Black;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWidth = -13;
@@ -154603,7 +154454,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 200;
@@ -154619,7 +154470,7 @@ weightClass = ExtraLight;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 300;
@@ -154635,7 +154486,7 @@ weightClass = Light;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 400;
@@ -154650,7 +154501,7 @@ name = Regular;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 500;
@@ -154666,7 +154517,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 600;
@@ -154682,7 +154533,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 700;
@@ -154699,7 +154550,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 800;
@@ -154715,7 +154566,7 @@ weightClass = ExtraBold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Oblique";
+value = "Gluten RightLeaning";
 }
 );
 interpolationWeight = 900;
@@ -154730,7 +154581,7 @@ weightClass = Black;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWidth = 13;
@@ -154744,7 +154595,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 200;
@@ -154760,7 +154611,7 @@ weightClass = ExtraLight;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 300;
@@ -154776,7 +154627,7 @@ weightClass = Light;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 400;
@@ -154791,7 +154642,7 @@ name = Regular;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 500;
@@ -154807,7 +154658,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 600;
@@ -154823,7 +154674,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 700;
@@ -154840,7 +154691,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 800;
@@ -154856,7 +154707,7 @@ weightClass = ExtraBold;
 customParameters = (
 {
 name = familyName;
-value = "Gluten Reverse";
+value = "Gluten LeftLeaning";
 }
 );
 interpolationWeight = 900;
@@ -154865,173 +154716,6 @@ instanceInterpolations = {
 "AE80B40C-E5A8-4B5C-A94B-22B98FE5A19F" = 1;
 };
 name = Black;
-weightClass = Black;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWidth = -13;
-instanceInterpolations = {
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 1;
-};
-isItalic = 1;
-linkStyle = Thin;
-name = "Thin Oblique";
-weightClass = Thin;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 200;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.125;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.875;
-};
-isItalic = 1;
-linkStyle = Extralight;
-name = "ExtraLight Oblique";
-weightClass = ExtraLight;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 300;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.25;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.75;
-};
-isItalic = 1;
-linkStyle = Light;
-name = "Light Oblique";
-weightClass = Light;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 400;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.375;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.625;
-};
-isItalic = 1;
-linkStyle = Regular;
-name = Oblique;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 500;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.5;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.5;
-};
-isItalic = 1;
-linkStyle = Medium;
-name = "Medium Oblique";
-weightClass = Medium;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 600;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.625;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.375;
-};
-isItalic = 1;
-linkStyle = SemiBold;
-name = "SemiBold Oblique";
-weightClass = SemiBold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 700;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.75;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.25;
-};
-isBold = 1;
-isItalic = 1;
-name = "Bold Oblique";
-weightClass = Bold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 800;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 0.875;
-"AE979D1C-FDDA-49FD-8CD9-3E2A42843A18" = 0.125;
-};
-isItalic = 1;
-linkStyle = ExtraBold;
-name = "ExtraBold Oblique";
-weightClass = ExtraBold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = italicAngle;
-value = "-13";
-}
-);
-interpolationWeight = 900;
-interpolationWidth = -13;
-instanceInterpolations = {
-"307B7D8E-54CC-4996-A0B0-7E3456408354" = 1;
-};
-isItalic = 1;
-linkStyle = Black;
-name = "Black Oblique";
 weightClass = Black;
 }
 );
@@ -156608,5 +156292,5 @@ manufacturer = "Etcetera Type Company";
 manufacturerURL = "https://www.etceteratype.co";
 unitsPerEm = 2000;
 versionMajor = 1;
-versionMinor = 201;
+versionMinor = 202;
 }
