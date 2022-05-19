@@ -1,11 +1,17 @@
     sources:
       - Gluten.glyphs
     axisOrder:
+      - slnt
       - wght
+    outputDir: "../fonts"
     familyName: Gluten
-    buildStatic: False
-    buildWebfont: False
     stat:
+      - name: Slant
+        tag: slnt
+        values:
+        - name: Default
+          value: 0
+          flags: 2
       - name: Weight
         tag: wght
         values:

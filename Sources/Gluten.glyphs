@@ -1,5 +1,5 @@
 {
-.appVersion = "3091";
+.appVersion = "3125";
 DisplayStrings = (
 "/strokeshortcomb",
 "/strokeshortcomb/strokelongcomb"
@@ -156117,5 +156117,5 @@ manufacturer = "Etcetera Type Company";
 manufacturerURL = "https://www.etceteratype.co";
 unitsPerEm = 2000;
 versionMajor = 1;
-versionMinor = 204;
+versionMinor = 300;
 }
